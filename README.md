@@ -17,8 +17,8 @@
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ░  alias:    WL                                   ░
 ░  role:     IT Support N1 · Dev em formação      ░
-░  os:       Big Linux · Arch · KDE Plasma 6      ░
-░  learning: React · Supabase · Python            ░
+░  os:               Big Linux · Arch             ░
+░  learning:         Supabase · Python            ░
 ░  status:   [ building mh-cortex.............. ] ░
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 ```
@@ -44,7 +44,7 @@ MonsterHunter SaaS open source — monsterpédia, sistema Athena, biblioteca de 
 
 ```
 STATUS: em desenvolvimento
-TYPE:   SaaS · portfólio
+TYPE:   SaaS · Open Source
 DB:     Supabase (PostgreSQL)
 UI:     React + Lovable
 ```
