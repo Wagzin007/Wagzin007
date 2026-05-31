@@ -1,70 +1,28 @@
-<div align="center">
+name: Generate Snake Animation
 
-```
-██╗    ██╗██╗
-██║    ██║██║
-██║ █╗ ██║██║
-██║███╗██║██║
-╚███╔███╔╝███████╗
- ╚══╝╚══╝ ╚══════╝
-```
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
-**`Wagzin007`**
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
 
-*Estudando até ser um dev full stack profissional*
+    steps:
+      - uses: actions/checkout@v3
 
-![Profile Views](https://komarev.com/ghpvc/?username=Wagzin007&color=ffffff&style=flat-square&label=VISITORS)
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?palette=github-light&color_snake=000000&color_dots=#cccccc,#aaaaaa,#888888,#555555,#ffffff
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=ffffff&color_dots=#1a1a1a,#333333,#555555,#888888,#ffffff
 
-</div>
-
----
-
-### `> whoami`
-
-```yaml
-alias:      WL
-role:       IT Support N1 · Dev em formação
-os:         Big Linux (Arch/KDE Plasma 6)
-learning:   React · Supabase · Python
-languages:  pt-BR  en
-```
-
----
-
-### `> ls projects/`
-
-```
-📦 mh-cortex/     — MonsterHunter SaaS: monsterpédia, athena, itens & receitas
-                    [ React · Supabase · open source ]
-```
-
----
-
-### `> cat skills.txt`
-
-```
-SUPORTE TÉCNICO    ████████████░░  vírus, hardware, montagem, diagnóstico
-LINUX              ████████████░░  Arch, KDE, pacman, systemd
-EDIÇÃO DE VÍDEO    ████████░░░░░░  CapCut, Kdenlive
-DESIGN GRÁFICO     ██████░░░░░░░░  flyers, identidade visual
-DOCÊNCIA           ████████░░░░░░  informática básica, Instituto Next
-```
-
----
-
-### `> github --stats`
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Wagzin007&show_icons=true&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff&border_color=30363d&hide_border=false&rank_icon=github" />
-<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Wagzin007&theme=dark&background=0d1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=555555&border=30363d" />
-
-</div>
-
----
-
-<div align="center">
-
-`[ IT Support · Open Source · Portfólio em construção ]`
-
-</div>
+      - uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
