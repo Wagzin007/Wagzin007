@@ -11,14 +11,9 @@
 
 **`Wagzin007`**
 
-</div>
+*Estudando até ser um dev full stack profissional*
 
----
-
-<div align="center">
-
-*Estudando até ser um dev full stack profissional*  
-*N1 IT Support · Informatics Instructor · Builder*
+![Profile Views](https://komarev.com/ghpvc/?username=Wagzin007&color=ffffff&style=flat-square&label=VISITORS)
 
 </div>
 
@@ -57,10 +52,19 @@ DOCÊNCIA           ████████░░░░░░  informática bá
 
 ---
 
+### `> github --stats`
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Wagzin007&show_icons=true&theme=dark&bg_color=0d1117&title_color=ffffff&text_color=888888&icon_color=ffffff&border_color=30363d&hide_border=false&rank_icon=github" />
+<img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Wagzin007&theme=dark&background=0d1117&ring=ffffff&fire=ffffff&currStreakLabel=ffffff&sideLabels=888888&dates=555555&border=30363d" />
+
+</div>
+
+---
+
 <div align="center">
 
 `[ IT Support · Open Source · Portfólio em construção ]`
-
-![Profile Views](https://komarev.com/ghpvc/?username=Wagzin007&color=ffffff&style=flat-square&label=VISITORS)
 
 </div>
