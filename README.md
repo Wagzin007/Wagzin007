@@ -61,9 +61,7 @@ UI:     React + Lovable
 
 ![Linux](https://img.shields.io/badge/Linux-0d1117?style=flat-square&logo=linux&logoColor=white)
 ![Arch](https://img.shields.io/badge/Arch-0d1117?style=flat-square&logo=archlinux&logoColor=white)
-![KDE](https://img.shields.io/badge/KDE-0d1117?style=flat-square&logo=kde&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-0d1117?style=flat-square&logo=python&logoColor=white)
-![React](https://img.shields.io/badge/React-0d1117?style=flat-square&logo=react&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-0d1117?style=flat-square&logo=supabase&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-0d1117?style=flat-square&logo=git&logoColor=white)
 ![Kdenlive](https://img.shields.io/badge/Kdenlive-0d1117?style=flat-square&logo=kdenlive&logoColor=white)
